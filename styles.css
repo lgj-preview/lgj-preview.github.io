@@ -1,0 +1,85 @@
+:root {
+  --background-gradient: linear-gradient(103.34deg, #006991 9.41%, #00CC9C 90.24%);
+}
+
+html {
+  font-family: 'Urbanist' !important;
+  letter-spacing: 0.5pt;
+  /* font-size: 14pt !important; */
+}
+a {
+  text-decoration: none !important;
+  color: rgb(var(--v-theme-primary));
+}
+a button {
+  color: rgba(var(--v-theme-on-surface), var(--v-high-emphasis-opacity)) !important;
+}
+mark {
+  background-color: rgb(var(--v-theme-secondary));
+  padding: 0px 0.25em;
+}
+
+/* Headings */
+h1, h2, h3, .v-expansion-panel-title {
+  text-transform: uppercase;
+}
+
+/* General */
+.side-text {
+  padding: 4em 5em !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 1em;
+}
+.no-padding-td {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* OVERRIDE */
+/* Accordeon */
+.v-expansion-panel-title {
+  font-size: 1.25rem !important;
+  font-weight: 500 !important;
+}
+.v-expansion-panel-text .side-text {
+  padding: 1em 2em;
+}
+.v-row {
+  margin: 0px;
+}
+
+/* Testimonials */
+.testimony {
+  display: flex !important;
+  flex-direction: column;
+  margin: 0px 1em;
+}
+.testimony .v-card-text {
+  font-size: 1em;
+  margin: 1em 0px 0px 1em;
+  padding: 0.5em 1em 0px 1em;
+  border-left: 2pt solid rgba(var(--v-theme-on-background), 0.1);
+  quotes: "\201C""\201D" "\2018""\2019"; 
+  /* "«""»" */
+}
+.testimony .v-card-text::before,
+.testimony .v-card-text::after {
+  font-size: 4em;
+  line-height: 0.1em;
+  vertical-align: -0.42em;  /*-0.25em*/
+  opacity: 0.125;
+}
+.testimony .v-card-text::before { content: open-quote; }
+.testimony .v-card-text::after { content: close-quote; }
+.testimony .v-card-title {
+  font-size: 0.9em;
+  text-align: right;
+  font-weight: 700;
+}
+.testimony .v-card-title::before { content: '- '; }
+
+
+

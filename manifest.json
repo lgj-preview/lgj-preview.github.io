@@ -1,0 +1,16 @@
+{
+  "short_name": "LGJ",
+  "name": "Lima Game Jam",
+  "description": "El Lima Game Jam es un evento sin fines de lucro que busca reunir desarrolladores e interesados en el desarrollo de juegos para que trabajen en prototipos durante 48 horas al mismo tiempo que otras sedes en todo el mundo como parte del Global Game Jam.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#00CC9C",
+  "background_color": "#F7F7F8"
+}
