@@ -1,3 +1,5 @@
+/* NOT USED */
+
 :root {
   --background-gradient: linear-gradient(103.34deg, #006991 9.41%, #00CC9C 90.24%);
 }
@@ -47,6 +49,9 @@ h1, h2, h3, .v-expansion-panel-title {
 .v-expansion-panel-text .side-text {
   padding: 1em 2em;
 }
+.v-expansion-panel-title__overlay {
+  background-color: rgb(var(--v-theme-secondary));
+}
 .v-row {
   margin: 0px;
 }
@@ -80,6 +85,5 @@ h1, h2, h3, .v-expansion-panel-title {
   font-weight: 700;
 }
 .testimony .v-card-title::before { content: '- '; }
-
 
 
