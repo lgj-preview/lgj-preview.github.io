@@ -1,1 +1,0 @@
-.avatar-item{min-width:10em;display:flex;flex-direction:column;align-items:center;justify-content:space-between;text-align:center}.avatar-item .v-img__img{transition:.2s}.avatar-item:hover .v-img__img,.avatar-item:active .v-img__img,.avatar-item:focus .v-img__img{transform:scale(1.1)}.v-avatar.cover .v-img__img{object-fit:cover}
