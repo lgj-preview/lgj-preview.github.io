@@ -1,1 +1,0 @@
-import{_ as e,D as r,t as a,N as c}from"./index-C277N28y.js";const o={};function s(n,t){return a(),r(c,{role:"presentation",class:"divider on-background"})}const d=e(o,[["render",s],["__scopeId","data-v-7da80ae6"]]);export{d as L};
