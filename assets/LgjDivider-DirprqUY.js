@@ -1,0 +1,1 @@
+import{_ as e,E as r,t as a,K as c}from"./index-0_p_sGry.js";const o={};function s(n,t){return a(),r(c,{role:"presentation",class:"divider on-background"})}const d=e(o,[["render",s],["__scopeId","data-v-7da80ae6"]]);export{d as L};
